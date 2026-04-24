@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário - Entra21</title>
+        </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <img src="https://cdn.sonicadigital.com.br/entra21/storage/settings/1/original-691cbe5cd50d1.png" alt="Entra21">
+            </h1>
+            
+            <ul>
+                <li>
+                    <a href= "/html.html">HTML</a>
+                </li>
+
+                <li>
+                    <a href= "/css.html">CSS</a>
+                </li>
+
+                <li>
+                    <a href= "/js.html">JS</a>
+                </li>
+
+                <li>
+                    <a href= "/frontend_backend.html">FRONTEND X BACKEND</a>
+                </li>
+
+                <li>
+                    <a href= "/youtube.html">YOUTUBE</a>
+                </li>
+
+                <li>
+                    <a href= "/contato.html">CONTATO</a>
+                </li>
+        </header>
+
+        <form action="enviar.php" method="post">
+            <div>
+                <label for="nome_completo">Nome Completo:</label>
+                <input type="text" name="nome_completo" id="nome_completo" required>
+            </div>
+
+            <div>            
+                <label for="email_usario">Email:</label>
+                <input type="email" name="email_usario" id="email_usario" required>
+            </div>
+
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" required>
+            </div>
+
+            <div>
+                <div>
+
+            <hr>
+
+                </div>
+                <button type="submit">Enviar</button>
+            </div>
+
+            <div>
+                <label for="cidade">Cidade:</label>
+                <select name="cidade" id="cidade">
+                    <option value="1">Balneário Camboriú</option>
+                    <option value="2">Itajaí</option>
+                    <option value="3">Itapema</option>
+                    <option value="4">Camboriú</option>
+                    <option value="5">Blumenau</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="5" maxlength="50"></textarea>
+            </div>
+            
+            <div>
+                <label for="label_sexo">Sexo:</label>
+                
+                <div>
+                <input type="radio" name="sexo" id="sexo_m" value="m">
+                <label for="sexo_m">Masculino</label>
+                </div>
+
+                <div>
+                <input type="radio" name="sexo" id="sexo_f" value="f">
+                <label for="sexo_f">Feminino</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="sexo" id="sexo_o" value="o">
+                    <label for="sexo_o">Outro</label>
+                </div>
+                <hr>
+                <div>
+                    <input type="checkbox" name="termos" id="termos">
+                    <label for="termos">Aceito os termos.</label>
+                </div>
+            </div>
+        </form>
+
+    <div>
+    </div>
+
+    </body>
+</html>
