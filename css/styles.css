@@ -11,6 +11,7 @@
 .main-header {
     background-color: rgb(127, 218, 224);
     display: flex;
+    padding: 10px 10px;
 }
 /* CONTEÚDO PRINCIPAL */
 .main-content {
